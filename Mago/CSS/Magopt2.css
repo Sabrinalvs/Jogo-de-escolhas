@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bloco1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+}
+.bloco2 {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 100%;
+}
+.mago1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 80%;
+}
+.escolhas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: center;
+    width: 50%;
+}
