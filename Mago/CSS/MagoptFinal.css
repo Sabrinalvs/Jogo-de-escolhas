@@ -33,25 +33,6 @@ body {
     border-radius: 0px 20px;
     margin-bottom: 60px;
 }
-.escolhas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-direction: center;
-    width: 100%;
-}
-.imgFeit {
-    width: 45%;
-    padding: 10px;
-}
-.card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 0px;
-}
 h2 {
     font-family: 'Catamaran', sans-serif;
     color: #ae00ff;
@@ -83,14 +64,8 @@ p {
     padding-right: 10px;
     padding-left: 10px;
 }
-.borda {
-    background-color: rgba(81, 80, 82, 0.582);
-    border-radius: 10px;
-    border: 2px solid rgba(240, 248, 255, 0.815);
-    padding: 5px;
-}
 button {
-    width: 100px;
+    width: 25%;
     padding: 5px;
     margin-bottom: 20px;
     font-family: 'Cabin', sans-serif;
