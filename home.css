@@ -45,6 +45,7 @@ h2 {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 15px;
+    text-align: center;
 }
 h3 {
     font-family: 'Cabin', sans-serif;
@@ -100,4 +101,20 @@ li {
       background-color: rgba(0, 0, 0, 0.925);
       border: 2px solid rgba(240, 248, 255, 0.815);
       border-radius: 10px;
+  }
+  @media (max-width:769px) {
+      .logo {
+          width: 30%;
+      }
+      .bloco2 {
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+          align-items: center;
+          
+      }
+      .personagens {
+          width: 60%;
+          margin: 10px;
+      }
   }
