@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     --corp :#00E943; 
-    background-color: rgba(0, 0, 0, 0.925);
+    background-color: rgba(0, 0, 0, 0.924);
 }
 .bloco1 {
     display: flex;
