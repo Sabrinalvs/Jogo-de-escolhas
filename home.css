@@ -29,6 +29,19 @@ body {
     border: 2px solid rgba(240, 248, 255, 0.815);
     border-radius: 0px 20px;
     width: 25%;
+    box-shadow: inset 5px 5px 5px #181717c5;
+}
+.branco:hover{
+    box-shadow: inset 2px 2px 5px #181717c5;
+}
+.roxo:hover {
+    box-shadow: 3px 3px 3px #ae00ff;
+}
+.verde:hover {
+    box-shadow: 3px 3px 3px #00E943;
+}
+.azul:hover {
+    box-shadow: 3px 3px 3px #00AEFF;
 }
 .logo {
     width: 15%;
@@ -47,6 +60,10 @@ h2 {
     margin-bottom: 15px;
     text-align: center;
 }
+.textBranco:hover{
+    text-shadow: 2px 2px 2px rgba(240, 248, 255, 0.24);
+    font-size: 41px;
+}
 h3 {
     font-family: 'Cabin', sans-serif;
     color: rgba(240, 248, 255, 0.815);
@@ -59,6 +76,7 @@ h3 {
     padding: 10px;
     border-radius: 0px 20px;
     border: 2px solid rgba(240, 248, 255, 0.815);
+    text-shadow: 2px 2px 2px rgba(38, 38, 39, 0.582);
 }
 .titMag {
     font-family: 'Catamaran', sans-serif;
@@ -66,6 +84,7 @@ h3 {
     font-weight: 500;
     color: #ae00ff;
     margin: 5px;
+    text-shadow: 1px 1px 1px #ae00ff71;
 }
 .titArq {
     font-family: 'Catamaran', sans-serif;
@@ -73,6 +92,7 @@ h3 {
     font-weight: 500;
     color: #00E943;
     margin: 5px;
+    text-shadow: 1px 1px 1px #00e9427c;
 }
 .titCav {
     font-family: 'Catamaran', sans-serif;
@@ -80,6 +100,7 @@ h3 {
     font-weight: 500;
     color: #00AEFF;
     margin: 5px;
+    text-shadow: 1px 1px 1px #00aeff5d;
 }
 li {
     color: rgba(240, 248, 255, 0.815);
@@ -89,6 +110,7 @@ li {
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    text-shadow: 2px 2px 2px rgba(18, 18, 19, 0.726);
   }
   button {
       width: 100px;

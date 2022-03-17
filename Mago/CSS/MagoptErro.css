@@ -32,6 +32,7 @@ body {
     border: 2px solid rgba(240, 248, 255, 0.815);
     border-radius: 0px 20px;
     margin-bottom: 60px;
+    box-shadow: inset 2px 2px 5px #181717c5;
 }
 h2 {
     font-family: 'Catamaran', sans-serif;
@@ -39,6 +40,7 @@ h2 {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 1px #ae00ff71;
 }
 h3 {
     font-family: 'Cabin', sans-serif;
@@ -52,6 +54,7 @@ h3 {
     padding: 10px;
     border-radius: 0px 20px;
     border: 2px solid rgba(240, 248, 255, 0.815);
+    box-shadow: inset 2px 2px 5px #181717c5;
 }
 p {
     font-family: 'Cabin', sans-serif;
@@ -79,6 +82,9 @@ button {
     background-color: rgba(0, 0, 0, 0.925);
     border: 2px solid rgba(240, 248, 255, 0.815);
     border-radius: 10px;
+}
+.roxo:hover {
+    box-shadow: 3px 3px 3px #ae00ff;
 }
 @media (max-width:769px) {
    .chapeu {
