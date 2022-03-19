@@ -59,10 +59,12 @@ h2 {
     font-weight: 500;
     margin-bottom: 15px;
     text-align: center;
+    padding: 10px;
 }
 .textBranco:hover{
     text-shadow: 2px 2px 2px rgba(240, 248, 255, 0.24);
     font-size: 41px;
+    padding: 8.7px;
 }
 h3 {
     font-family: 'Cabin', sans-serif;
@@ -139,4 +141,9 @@ li {
           width: 60%;
           margin: 10px;
       }
+  }
+  @media (max-width:380px) {
+    h2 {
+        font-size: 33px;
+    }
   }
