@@ -9,31 +9,33 @@
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Average&family=Cabin:wght@400;500;600;700&family=Catamaran:wght@400;500;600&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="bloco1">
-        <img class="espada" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/espadas.png" alt="Espadas">
-        <h2>Cavaleiro</h2>
-        <h3>Parabéns você passou pela primeira provação!</h3>
-    </section>
-    <section class="bloco2">
-        <div class="cavaleiro1 azul">
-            <p class="pergunta">Após pegar sua espada, ele lê um bilhete sobre o seu próximo destino, derrotar uma criatura enorme, mas para isso ele tera que viajar, qual a melhor forma para ele chegar rápido ao seu destino?</p>
-            <div class="escolhas">
-                <div class="card">
-                    <p class="borda">A.</p>
-                    <img class="imgDest" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/andar.png" alt="Andando">
+    <main>
+        <section class="bloco1">
+            <img class="imgPrinc" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/destino.png" alt="Destino">
+            <h2>Cavaleiro</h2>
+            <h3>Parabéns você ajudou o cavaleiro a passar pela primeira provação!</h3>
+        </section>
+        <section class="bloco2">
+            <div class="cavaleiro1 azul">
+                <p class="pergunta">Após pegar sua espada, ele lê um bilhete sobre o seu próximo <span class="palavazul">destino</span>, derrotar uma criatura enorme, mas para isso ele tera que <span class="palavazul">viajar</span>, qual a melhor forma para ele chegar rápido ao seu destino?</p>
+                <div class="escolhas">
+                    <div class="card">
+                        <p class="borda">A.</p>
+                        <img class="imgDest" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/andar.png" alt="Andando">
+                    </div>
+                    <div class="card">
+                        <p class="borda">B.</p>
+                        <img class="imgDest" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/cavalo.png" alt="Cavalo">
+                    </div>
+                    <div class="card">
+                        <p class="borda">C.</p>
+                        <img class="imgDest" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/bicicleta-de-montanha.png" alt="Bike">
+                    </div>
                 </div>
-                <div class="card">
-                    <p class="borda">B.</p>
-                    <img class="imgDest" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/cavalo.png" alt="Cavalo">
-                </div>
-                <div class="card">
-                    <p class="borda">C.</p>
-                    <img class="imgDest" src="/JogoModulo1/Cavaleiro/ImagensCavaleiro/bicicleta-de-montanha.png" alt="Bike">
-                </div>
+                <button class="azul" onclick="respostaCerta()">Escolher</button>
+                <script src="/JogoModulo1/Cavaleiro/JS/Cavaleiropt2.js"></script>
             </div>
-            <button class="azul" onclick="respostaCerta()">Escolher</button>
-            <script src="/JogoModulo1/Cavaleiro/JS/Cavaleiropt2.js"></script>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
 </html>

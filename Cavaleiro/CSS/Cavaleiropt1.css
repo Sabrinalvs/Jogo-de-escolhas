@@ -17,7 +17,7 @@ body {
     justify-content: center;
     width: 100%;
 }
-.espada {
+.imgPrinc {
     width: 11%;
     margin-top: 20px;
     margin-bottom: -5px;
@@ -73,6 +73,7 @@ h3 {
     border-radius: 0px 20px;
     border: 2px solid rgba(240, 248, 255, 0.815);
     box-shadow: inset 2px 2px 5px #181717c5;
+    text-shadow: 2px 2px 2px rgba(38, 38, 39, 0.582);
 }
 p {
     font-family: 'Cabin', sans-serif;
@@ -103,11 +104,24 @@ button {
     border: 2px solid rgba(240, 248, 255, 0.815);
     border-radius: 10px;
 }
+.palavazul{
+    color: #00AEFF;
+}
+.palavazul:hover {
+    text-shadow: 2px 2px 2px #00aeff62;
+}
 .azul:hover {
     box-shadow: 3px 3px 3px #00AEFF;
 }
+.borda:hover {
+    color: #00AEFF;
+    text-shadow: 1px 1px 1px #00aeff62;
+}
+h2:hover {
+    text-shadow: 2px 2px 3px #00aeff62;
+}
 @media (max-width:769px) {
-    .espada {
+    .imgPrinc {
         width: 40%;
     }
     .imgArma {
