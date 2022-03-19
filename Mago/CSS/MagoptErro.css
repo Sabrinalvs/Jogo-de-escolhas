@@ -17,7 +17,7 @@ body {
     justify-content: center;
     width: 100%;
 }
-.chapeu {
+.imgPrinc {
     width: 11%;
     margin-top: 20px;
     margin-bottom: -5px;
@@ -101,7 +101,7 @@ h2:hover {
     text-shadow: 2px 2px 3px #ae00ff71;
 }
 @media (max-width:769px) {
-   .chapeu {
+   .imgPrinc {
        width: 40%;
    }
    a {
