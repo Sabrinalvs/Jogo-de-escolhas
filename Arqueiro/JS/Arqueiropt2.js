@@ -3,7 +3,7 @@ function respostaCerta () {
     var tentativa = 2
     while (tentativa >= 1) {
         if (resposta == "A" || resposta == "a"){
-            window.location.href = "http://127.0.0.1:5500/Jogo%20M%C3%B3dulo%201/Arqueiro/html/Arqueiropt3.html";
+            window.location.href = "http://127.0.0.1:5500/JogoModulo1/Arqueiro/html/Arqueiropt3.html";
             break;
         }  else if (resposta != "A" || resposta == "a"){
                 if (tentativa == 2) {
@@ -12,7 +12,7 @@ function respostaCerta () {
                     tentativa--;
                 } else if (tentativa == 1) {
                     alert("Você perdeu");
-                    window.location.href = "http://127.0.0.1:5500/Jogo%20M%C3%B3dulo%201/Arqueiro/html/ArqueiroptErro.html";
+                    window.location.href = "http://127.0.0.1:5500/JogoModulo1/Arqueiro/html/ArqueiroptErro.html";
                     break;
                 }
         } 

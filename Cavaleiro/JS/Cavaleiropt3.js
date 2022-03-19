@@ -3,7 +3,7 @@ function respostaCerta () {
     var tentativa = 2
     while (tentativa >= 1) {
         if (resposta == "d" || resposta == "D"){
-            window.location.href = "http://127.0.0.1:5500/Jogo%20M%C3%B3dulo%201/Cavaleiro/HTML/CavaleiroptFinal.html";
+            window.location.href = "http://127.0.0.1:5500/JogoModulo1/Cavaleiro/HTML/CavaleiroptFinal.html";
             break;
         }  else if (resposta != "d" || resposta == "D"){
                 if (tentativa == 2) {
@@ -12,7 +12,7 @@ function respostaCerta () {
                     tentativa--;
                 } else if (tentativa == 1) {
                     alert("Você perdeu");
-                    window.location.href = "http://127.0.0.1:5500/Jogo%20M%C3%B3dulo%201/Cavaleiro/HTML/CavaleiroptErro.html";
+                    window.location.href = "http://127.0.0.1:5500/JogoModulo1/Cavaleiro/HTML/CavaleiroptErro.html";
                     break;
                 }
         } 
