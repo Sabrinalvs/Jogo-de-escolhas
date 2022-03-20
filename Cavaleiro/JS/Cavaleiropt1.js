@@ -3,7 +3,7 @@ function respostaCerta () {
     var tentativa = 2
     while (tentativa >= 1) {
         if (resposta == "b" || resposta == "B"){
-            window.location.href = "../html/Cavaleiropt2.html";
+            window.location.href ="../html/Cavaleiropt2.html";
             break;
         }  else if (resposta != "b" || resposta == "B"){
                 if (tentativa == 2) {
