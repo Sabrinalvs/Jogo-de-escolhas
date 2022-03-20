@@ -3,7 +3,7 @@ function respostaCerta () {
     var tentativa = 2
     while (tentativa >= 1) {
         if (resposta == "d" || resposta == "D"){
-            window.location.href = "http://127.0.0.1:5500/JogoModulo1/Cavaleiro/HTML/CavaleiroptFinal.html";
+            window.location.href = "../html/CavaleiroptFinal.html";
             break;
         }  else if (resposta != "d" || resposta == "D"){
                 if (tentativa == 2) {
@@ -11,8 +11,8 @@ function respostaCerta () {
                     resposta = prompt("Qual das opções você vai escolher? A, B, C ou D?");
                     tentativa--;
                 } else if (tentativa == 1) {
-                    alert("Você perdeu");
-                    window.location.href = "http://127.0.0.1:5500/JogoModulo1/Cavaleiro/HTML/CavaleiroptErro.html";
+                    alert("Você perdeu :(");
+                    window.location.href = "../html/CavaleiroptErro.html";
                     break;
                 }
         } 

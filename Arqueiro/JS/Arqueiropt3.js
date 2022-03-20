@@ -3,7 +3,7 @@ function respostaCerta () {
     var tentativa = 2
     while (tentativa >= 1) {
         if (resposta == "D" || resposta == "d"){
-            window.location.href = "http://127.0.0.1:5500/JogoModulo1/Arqueiro/html/ArqueiroptFinal.html";
+            window.location.href = "../html/ArqueiroptFinal.html";
             break;
         }  else if (resposta != "D" || resposta == "d"){
                 if (tentativa == 2) {
@@ -11,8 +11,8 @@ function respostaCerta () {
                     resposta = prompt("Qual das opções você vai escolher? A, B, C ou D?");
                     tentativa--;
                 } else if (tentativa == 1) {
-                    alert("Você perdeu");
-                    window.location.href = "http://127.0.0.1:5500/JogoModulo1/Arqueiro/html/ArqueiroptErro.html";
+                    alert("Você perdeu :(");
+                    window.location.href = "../html/ArqueiroptErro.html";
                     break;
                 }
         } 
