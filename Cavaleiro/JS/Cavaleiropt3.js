@@ -3,7 +3,7 @@ function respostaCerta () {
     var tentativa = 2
     while (tentativa >= 1) {
         if (resposta == "d" || resposta == "D"){
-            window.location.href = "../html/CavaleiroptFinal.html";
+            window.location.href = "../HTML/CavaleiroptFinal.html";
             break;
         }  else if (resposta != "d" || resposta == "D"){
                 if (tentativa == 2) {
@@ -12,7 +12,7 @@ function respostaCerta () {
                     tentativa--;
                 } else if (tentativa == 1) {
                     alert("Você perdeu :(");
-                    window.location.href = "../html/CavaleiroptErro.html";
+                    window.location.href = "../HTML/CavaleiroptErro.html";
                     break;
                 }
         } 
